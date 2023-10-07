@@ -58,6 +58,7 @@ body {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+  display: flex;
 }
 
 .last_img_card {

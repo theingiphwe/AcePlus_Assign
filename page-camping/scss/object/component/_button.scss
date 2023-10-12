@@ -1,0 +1,61 @@
+
+.c-btn{
+        &--signup{
+           a{
+            padding: 10px 25px;
+            text-decoration: none;
+            color:  #fff;
+           }
+            
+        }
+        &--signin{
+           a{
+            padding: 10px 25px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            text-decoration: none;
+            color:  #fff;
+           }
+        }
+
+        &--discover{
+            
+            a{
+                padding: 10px 25px;
+                border: 1px solid #000;
+                border-radius: 20px;
+                margin: 0 auto;
+                text-align: center;
+                text-decoration: none; 
+                color:  #fff;
+            }
+        }
+
+        &--more{
+            width: 80px;
+            padding: 10px 25px;
+            border-radius: 20px;
+            margin: 0 auto;
+            background-color: #eae7e7;
+            a{
+                text-align: center;
+                text-decoration: none; 
+                color:  #7e7b7b;
+                
+            }
+        }
+
+        &--view{
+            width: 80px;
+            padding: 10px 25px;
+            border: 1px solid #eb8f52;
+            border-radius: 20px;
+            margin: 0 auto;
+            a{
+                text-align: center;
+                text-decoration: none; 
+                color:  #eb8f52;
+            }
+        }
+    
+}

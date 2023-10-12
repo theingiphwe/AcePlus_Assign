@@ -1,0 +1,30 @@
+
+
+.l-header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .l-header__list{
+                 display: flex;
+                 .l-header__menu{
+                     display: flex;
+                     align-items: center;
+                     ul{
+                         display: flex;
+                         li{
+                             padding-left: 20px;
+                            a{
+                                 text-decoration: none;
+                                 color:  #fff;
+                            }
+                         }
+                     }
+                 }
+             }
+             .l-header__signup{
+                 display: flex;
+             }
+     }

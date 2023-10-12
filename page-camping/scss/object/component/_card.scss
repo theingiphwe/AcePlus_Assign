@@ -1,0 +1,96 @@
+.p-bloc{
+    &--card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: 30px;
+        .card-bloc{
+            margin-right: 10px;
+            background-color: #fff;
+            border-radius: 20px;
+            .card-bloc__inner{
+                margin: 25px 25px;
+                text-align: center;
+                h1{
+                    font-family: 'Archivo', sans-serif;
+                    font-size: 18px;
+                    padding: 5px;
+                }
+                p{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    padding: 5px;
+                }
+            }
+
+        }
+    }
+
+    &--activity{
+        margin: 40px 0;
+        text-align: center;
+        h1{
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+        }
+
+        .content-wrap{
+            width: 100%;
+            margin: 30px 0;
+           &__card{
+            display: flex;
+            flex-wrap: wrap;
+            .card-bloc{
+                width: calc(95%/4);
+                margin-bottom: 20px;
+                margin-left: 10px;
+                background-color: #fff;
+                border-radius: 20px;
+                &__inner{
+                    padding: 20px;
+                    .image{
+                        position: relative;
+                        margin-bottom: 20px;
+                        .camp_img{
+                             width: 194px;
+                                
+                        }
+
+                        .heart_img{
+                            position: absolute;
+                            right: 20px;
+                            top: 5px;
+                            border-radius: 20px;
+                            padding: 10px;
+                            background-color: white;
+                        }
+                        
+
+                        p{
+                            padding: 15px 20px;
+                            position: absolute;
+                            top: 100px;
+                            left: 60px;
+                            border-radius: 10px;
+                            background-color: white;
+                           }
+                    }
+                    .txt{
+                        h2{
+                            font-family: 'Archivo', sans-serif;
+                            font-size: 18px;
+                            padding: 10px;
+                        }
+                        p{
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 16px;
+                            padding: 16px;
+                        }
+                    }
+                }
+            }
+           }
+        }
+    }
+}
